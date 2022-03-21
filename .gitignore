@@ -1,0 +1,8 @@
+*.o
+a.out
+*.so
+*.gcda
+*.gcno
+test
+.vscode
+test.c
