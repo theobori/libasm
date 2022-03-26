@@ -13,21 +13,21 @@ Run `make tests_run`
 ## Implemented functions
 
 ```c
-void my_memset(void *, int, size_t);
-int my_ffs(int);
-int my_strcmp(const char *, const char *);
-char *my_index(char *, int);
-void *my_memcpy(void *, void *, size_t);
-void *my_memfrob(void *s, size_t n);
-void *my_memmove(void *, const void *, size_t);
-char *my_rindex(char *, int);
-int my_strcasecmp(const char *s1, const char *s2);
-char *my_strchr(char *, int);
-size_t my_strcspn(const char *, const char *);
-char *my_strfry(char *);
-size_t my_strlen(char*);
-int my_strncmp(const char *, const char *, size_t);
-const char *my_strpbrk(const char *, const char *);
-char *my_strrchr(char *, int);
-char *my_strstr(const char *, const char *);
+void memset(void *, int, size_t);
+int ffs(int);
+int strcmp(const char *, const char *);
+char *index(char *, int);
+void *memcpy(void *, void *, size_t);
+void *memfrob(void *s, size_t n);
+void *memmove(void *, const void *, size_t);
+char *rindex(char *, int);
+int strcasecmp(const char *s1, const char *s2);
+char *strchr(char *, int);
+size_t strcspn(const char *, const char *);
+char *strfry(char *);
+size_t strlen(char*);
+int strncmp(const char *, const char *, size_t);
+const char *strpbrk(const char *, const char *);
+char *strrchr(char *, int);
+char *strstr(const char *, const char *);
 ```
