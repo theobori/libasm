@@ -30,4 +30,4 @@ int strncmp(const char *, const char *, size_t);
 const char *strpbrk(const char *, const char *);
 char *strrchr(char *, int);
 char *strstr(const char *, const char *);
-```
+``` 
